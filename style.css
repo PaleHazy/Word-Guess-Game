@@ -1,0 +1,22 @@
+.title {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.title h1 {
+    margin: auto;
+    width: max-content;
+    font-size: 30px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.title p {
+margin: auto;
+}
+
+/* done with title */
+
