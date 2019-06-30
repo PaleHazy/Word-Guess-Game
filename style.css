@@ -19,4 +19,58 @@ margin: auto;
 }
 
 /* done with title */
+.game {
+    display: flex;
+    justify-content: stretch;
+}
+.pictureContainer {
+    display: flex;
+    width: 50%;
+    height: 500px;
 
+}
+#hangmanPic {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.hangmanGuessBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hangmanGuessBox p {
+
+}
+
+.textWrap {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+#singleWords {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+
+.inside {
+    display: flex;
+    flex-grow: 1;
+    height: 50%;
+    margin: 5px;
+    text-align: end;
+    justify-content: center;
+    align-items: flex-end;
+}
+.inside span {
+height: max-content;
+width: 50px;
+border-bottom: solid 2px;
+border-bottom-width: 4px;
+text-align: center;
+font-size: 29px;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Hangman</title>
 </head>
 <body>
     <!-- decorative text -->
@@ -15,15 +15,24 @@
         <p>This is the hangman game, pick a letter, hope to be right or else you will be hung!! The goal is to guess the whole word.</p>
         </div>
     </header>
+    <div class="game">
+        <div class="pictureContainer">
+            <img id="hangmanPic"src="images/Guess_1.jpg" alt="">
+        </div>
 
-    
 
     <!-- javascript will handle this -->
-    <div id = "hangmanGuessBox"class="hangmanGuessBox">
+         <div id = "hangmanGuessBox"class="hangmanGuessBox">
+             <div class="textWrap">
+            <p>On the keyboard, press the letter you want to guess</p>
+             </div>
+            <div id="singleWords">
+               
+             
+            </div>
+        </div>
 
     </div>
-
-    
 </body>
 <script src="javascript.js"></script>
 </html>
