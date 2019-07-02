@@ -66,7 +66,7 @@ justify-content: center;
     justify-content: center;
     align-items: flex-end;
 }
-.inside span {
+.inside div {
 height: max-content;
 width: 50px;
 border-bottom: solid 2px;
